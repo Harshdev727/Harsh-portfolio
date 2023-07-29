@@ -1,0 +1,22 @@
+<%- include("partials/header") -%>
+
+    <div class="container">
+        <h2 class="text-center">See My <span class="text-info">Projects</span></h2>
+        <ol class="projects-list mt-4">
+            <%projects.forEach((project)=>{ %>
+                <li class="p-5">
+                    <h3>
+                        <%= project.title %>
+                    </h3>
+                    <p class="mb-3">
+                        <%= project.description %>
+                    </p>
+                    <a href="<%= project.previewURL %>" class="btn btn-outline-info">Live Preview</a>
+                    <a href="<%= project.sourceURL %>" class="btn btn-outline-info">View Source</a>
+                </li>
+                <% }); %>
+        </ol>
+    </div>
+
+
+<%- include("partials/footer") -%>
