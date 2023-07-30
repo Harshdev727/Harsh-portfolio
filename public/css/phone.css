@@ -1,7 +1,4 @@
 @media screen and (max-width:1000px){
-    *{
-        padding: 0;
-    }
     /* navigation */
     .navbar{
         padding: 0;
@@ -26,5 +23,9 @@
     .skill-col{
         padding:5% 3%;
     
+    }
+
+    #skills, #projects, #blog{
+        padding: 0;
     }
     }
