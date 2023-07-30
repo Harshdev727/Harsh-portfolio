@@ -15,6 +15,9 @@
     #about-me{
         padding: 0;
     }
+    .profile-pic{
+        margin: 20px 0;
+    }
     /* Skills Section */
     .skill-col{
         padding:5% 3%;
