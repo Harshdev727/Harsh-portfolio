@@ -1,4 +1,8 @@
 @media screen and (max-width:1000px){
+    /* navigation */
+    .navbar{
+        padding: 0;
+    }
     /* banner area */
     #banner-area{
         padding:5% 10% ;
