@@ -74,28 +74,6 @@ p{
     z-index: 1;
 }
 
-.computer-img{
-    top: 90px;
-    right: 418px;
-    transform: rotate(-30deg);
-    opacity: 0.3;
-}
-
-.programmer-img{
-    top: 90px;
-    left: 128px;
-    transform: rotate(-30deg);
-    opacity: 0.3;
-}
-
-.website-img{
-    top: 90px;
-    right: 120px;
-    transform: rotate(-30deg);
-    opacity: 0.3;
-}
-
-
 /* About Me Section */
 #about-me{
     padding: 50px 30px;
