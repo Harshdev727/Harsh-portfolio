@@ -10,6 +10,11 @@
     .title h1{
         font-size: 3rem;
     }
+
+    /* about me section */
+    #about-me{
+        padding: 0;
+    }
     /* Skills Section */
     .skill-col{
         padding:5% 3%;
