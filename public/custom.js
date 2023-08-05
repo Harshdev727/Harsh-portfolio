@@ -14,3 +14,16 @@ const options = {
   cursorClass: 'typed-cursor'
 };
 const typed = new Typed(typedTextElement, options);
+
+
+const skillBubbles = document.querySelectorAll(".skill-bubble");
+
+skillBubbles.forEach((bubble) => {
+  bubble.addEventListener("mouseover", () => {
+    bubble.classList.add("animate");
+  });
+
+  bubble.addEventListener("mouseout", () => {
+    bubble.classList.remove("animate");
+  });
+});
