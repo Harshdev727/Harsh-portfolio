@@ -216,3 +216,37 @@ p{
 .typed-cursor{
     font-size: 2rem;
 }
+
+
+/* Basic styling for the skill bubble */
+.skill-bubble {
+    background-color: #3498db;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  @keyframes scaleUp {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
+  .animate {
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  /* Custom animation for the hover effect */
+  .animate {
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  
+  
