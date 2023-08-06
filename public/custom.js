@@ -1,4 +1,3 @@
-// Define the strings you want to type
 const strings = [
 "Welcome to My Portfolio!"
 ];
@@ -16,14 +15,3 @@ const options = {
 const typed = new Typed(typedTextElement, options);
 
 
-const skillBubbles = document.querySelectorAll(".skill-bubble");
-
-skillBubbles.forEach((bubble) => {
-  bubble.addEventListener("mouseover", () => {
-    bubble.classList.add("animate");
-  });
-
-  bubble.addEventListener("mouseout", () => {
-    bubble.classList.remove("animate");
-  });
-});
