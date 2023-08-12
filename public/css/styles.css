@@ -148,17 +148,19 @@ p {
 
 /* Project Button Area */
 #projects {
-    padding: 80px 30px;
+    padding: 50px 30px 50px;
     background-color: #fff;
 }
 
-/* .projects-description{
-} */
+#projects h1, #blog h1{
+    margin-bottom:2rem ;
+}
+
 
 /* Blog Button Area */
 
 #blog {
-    padding: 80px 30px;
+    padding: 50px 30px 50px;
     background-color: #B8FFF9;
 }
 
